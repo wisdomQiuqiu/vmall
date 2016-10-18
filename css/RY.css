@@ -1,0 +1,9 @@
+.m-price b{
+	color: #00b5e2;
+}
+.footer-fixed .activeRY::before{
+	background-position: -3.27915rem -1.71765rem !important;
+}
+.footer-fixed .activeRY{
+	color: #ca151e !important;
+}

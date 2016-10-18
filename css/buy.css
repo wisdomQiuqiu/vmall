@@ -1,0 +1,353 @@
+a{
+	color: #888;
+}
+.home{
+	position: absolute;
+	top: 0.6rem;
+	right: 2.7rem;
+	width: 1.25rem;
+	height:1.25rem;
+	background: url(../img/icon_home.png) no-repeat 50% 50%;
+	background-size: 1.25rem 1.25rem;
+}
+.home a{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+/*nav*/
+.nav{
+	position: fixed;
+    top: 2.5rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 100;
+    font-size: 0.7475rem;
+    background-color: #eee;
+}
+.nav li{
+	float: left;
+    width: 25%;
+}
+a, input {
+    background-clip: padding-box;
+}
+.nav li a {
+    color: #333;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: .67706rem !important;
+    border-bottom: 1px solid #d2d2d2;
+    line-height: 2.1rem;
+}
+.nav li .current {
+    color: #e01d20;
+    border-bottom: 1px solid #e01d20;
+}
+/*轮播图*/
+.slider{
+    width: 100%;
+    height: 10.05rem;
+    margin-top:4.7rem; 
+}
+.slider-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.slider-div img{
+    width:10.05155rem;
+    height: 10.05155rem;
+}
+.phone-info{
+    width: 100%;
+}
+.phone-property{
+    /*margin-bottom: .625rem;*/
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #eee;
+}
+.pro-meta-area {
+    width: 100%;
+    box-sizing: border-box;
+    height: 11.5922rem;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    margin-bottom: .625rem;
+    padding: .625rem .625rem .41665rem .625rem;
+}
+.p-name {
+    font-weight: normal;
+    font-size: .72914rem;
+    opacity: .85;
+}
+.p-promotion {
+    padding-top: .18rem;
+    font-size: .6em;
+    color: #888;
+    line-height: 1.2;
+}
+.p-promotion a {
+    color: #28c0c6;
+}
+.phone-price{
+    box-sizing: border-box;
+    height: 1.5718rem;
+    padding-top: .1823rem;
+    padding-bottom: .3906rem;
+    color: #e01d20;
+    display: flex;
+    align-items: center;
+}
+.phone-price span
+{
+    font-weight: normal;
+    font-size: .72914rem;
+}
+.pei{
+    width: 100%;
+    height:4rem; 
+}
+.pei ul li{
+    width: 2.1rem;
+    height: 4rem;
+    line-height: 4rem;
+}
+.pei ul{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.pei ul li span{
+    text-align: left;
+    display: inline-block;
+    font-size: 0.67706rem;
+}
+.pei ul li:last-of-type{
+    width: 3.45rem;
+    height: 3.4rem;
+    margin-top: 0.625rem;
+}
+.pei ul li:last-of-type a{
+    height: 3.1242rem;
+    width: 3.1242rem;
+    display: inline-block;
+    border: 1px solid #eee;
+    background-color: #fff;
+    margin-right: .20835rem;
+    margin-bottom: .20835rem;
+}
+.pei ul li:last-of-type a img {
+    border: 0;
+    max-width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+/*以旧换新*/
+.goNew{
+    height: 1rem;
+    line-height: 1rem;
+    width: 100%;
+    color: #888;
+    float: left;
+    font-size: 0.67706rem;
+}
+.one-goNew{
+    width: 3.38515rem;
+    text-align: left;
+    display: inline-block;
+}
+.divide{
+    width: 100%;
+    height:.625rem; 
+    background-color: #f7f7f7;
+}
+.pro-meta-sku{
+    background-color: #fff;
+    height: 12.95rem;
+    width: 100%;
+}
+.pro-meta-sku .content {
+	font-size: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #eee;
+    padding: .2604rem 0 0 .625rem;
+}
+/*购买选择*/
+.content-p{
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	height: 2.4rem;
+	font-size: 0.67706rem;
+}
+.content-p:first-of-type{
+	height: 2.8rem;
+}
+.content-p>ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+.content-p>ul>li{
+	display: inline-block;
+}
+.buy-choice
+{
+	font-size: .67706rem;
+    line-height: 3.5;
+    color: #888;
+}
+.content-p .add ,.cut{
+	height: 1.8rem;
+    width: 1.8rem;
+    background: url(../img/add-.png) no-repeat;
+    background-size: 200% 100%;
+    display: inline-block;
+    font-size: .6rem;
+    cursor: pointer;
+}
+.content-p .cut{
+	    background-position: right center;
+}
+.content-p .textbox,.color-choice{
+	display: inline-block;
+	width: 3.3851rem;
+    text-align: center;
+    position: relative;
+    top: .2rem;
+    height: 1.71797rem;
+    line-height: 1.71797rem;
+    border-radius: .52079rem;
+    border: 1px solid #b2b2b2;
+     margin:0 .6rem .41665rem;
+    background-color: #fff;
+    color: #333;
+}
+.textbox input {
+    border: 0 none;
+    width: 80%;
+    height: 80%;
+    line-height: 80%;
+    font-size: .67706rem;
+    color: #333;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: -.1015rem;
+}
+/*颜色选择*/
+.color-choice{
+	width: 5.203rem;
+	margin-left: 0;
+}
+/*选中了修改颜色*/
+.selected{
+	border-color: #f03f01;
+    background-color: #fef5f2;
+}
+.divide{
+	height: 1.8rem;
+}
+/*版权*/
+.bottom-area{
+	position: relative;
+    bottom: 0;
+    z-index: 19;
+    width: 100%;
+    padding: .9375rem 0;
+    background-color: #fff;
+    width: 100%;
+    height: 5.214rem;
+    box-sizing: border-box;
+}
+.login{
+	text-align: center;
+	width: 75%;
+    margin: 0 auto;
+    height: 0.7rem !important;
+	line-height: 0.7rem;
+}
+.login a {
+    display: inline-block;
+    padding: .2031rem 0.8125rem;
+    font-size: .67706rem;
+    color: #888;
+}
+a{
+	color: #333;
+}
+.type{
+	padding: .5208rem 0;
+	text-align: center;
+	font-size: 0;
+}
+.type .current {
+    color: #ca151e;
+}
+.type a{
+    padding: 0 .5078rem;
+    font-size: .67706rem;
+    color: #888;
+    line-height: 1;
+    display: inline-block;
+    border-right: 1px solid #888;
+}
+.copyright{
+	text-align: center;
+	font-size: .6rem;
+    line-height: 1.5;
+    color: #888;
+}
+.divide-last{
+	background-color: #f7f7f7;
+	width: 100%;
+	height: 3.6rem;
+}
+/*底部板块 加入购物车 立即下单*/
+.last-choice{
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3.172rem;
+	background-color: #f0f0f0;
+	border-top: 1px solid #d9d9d9;
+	display: flex;
+	z-index: 10000;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0.41665rem 0.8333rem;
+}
+.last-choice span{
+	font-size: 0.72914rem;
+}
+/*加入购物车*/
+.addToCart,.placeOrder{
+	flex: 1;
+	background-color: #f17f00;
+    border: 1px solid #d75e0c;
+    color: #fff;
+    padding: 0 .72915rem;
+    height: 2.238rem;
+    line-height: 2.238rem;
+    border-radius: .508rem;
+    text-align: center;
+}
+.placeOrder{
+	flex: 1;
+	background-color: #ca151e;
+    border: 1px solid #cc0a0d;
+    color: #fff;
+    margin-left: .833rem;
+}

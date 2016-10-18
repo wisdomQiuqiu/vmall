@@ -1,0 +1,227 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+@media only screen and (max-width:768px){
+	html{
+		font-size: 40.96px;
+	}
+}
+@media only screen and (max-width:435px){
+	html{
+		font-size: 23.2px;
+	}
+}
+@media only screen and (max-width:414px){
+	html{
+		font-size: 22.08px;
+	}
+}
+@media only screen and (max-width:411px){
+	html{
+		font-size: 21.92px;
+	}
+}
+@media only screen and (max-width:375px){
+	html{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width:360px) {
+	html{
+		font-size: 19.2px;
+	}
+}
+@media only screen and (max-width:320px){
+	html{
+		font-size: 17.0667px;
+	}
+}
+body{
+	font-family: sans-serif,Helvetica,Arial,'Lucida Grande',Verdana;
+    word-wrap: break-word;
+}
+li{
+	list-style: none;
+}
+#page{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+a{
+	text-decoration: none;
+}
+#page>header{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	width: 100%;
+	height: 2.501rem;
+	background-color: #eee; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 1px solid #c7c7c7;
+}
+.header-goback{
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 2.34295rem;
+    height: 100%;
+    background: transparent url(../img/FL-icon.png) no-repeat 50% 50%;
+    background-size: .46859rem .833rem;
+}
+.SPFL{
+	display: inline-block;
+    width: 45%;
+    margin: 0 auto;
+    height: 2.508rem;
+    line-height: 2.508rem;
+    vertical-align: middle;
+    font-size: .72914rem;
+    color: #333;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.buyCart{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 1.2485rem;
+	height: 1.2485rem;
+	padding: 0.625rem;
+}
+.buyCart>a{
+	display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    position: relative;
+}
+.buyCart a img{
+	display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+#cartNum{
+	position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    background-color: #ca151e;
+    height: 0.6953rem;
+    width: 0.48353rem;
+    line-height: .6953rem;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 0.6rem;
+    border-radius: 50%;
+    padding: 0 .108rem;
+    z-index: 100;
+}
+/*main*/
+main{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-top:2.501rem;
+}
+.leftSide{
+	width:6.249rem;
+}
+.leftSide ul{
+	width:100% ;
+	display: flex;
+	flex-wrap: wrap;
+}
+.leftSide li{
+	width: 100%;
+	height: 2.6rem;
+	font-size: 0;
+}
+.leftSide li a{
+	color: #333;
+	width: 100%;
+	height: 100%;
+	line-height: 2.6rem;
+	box-sizing: border-box;
+	display: inline-block;
+	padding-left: 0.8333rem;
+	font-size: 0.72914rem;
+}
+.leftSide a .current {
+    display: block;
+    color: #e01d20!important;
+    background: url(../img/arrowToLeft.png) no-repeat right;
+    background-size: .38rem .69168rem;
+    margin-right: -1px;
+}
+/*右边*/
+.rightSide{
+	width: 66.67%;
+    float: right;
+    height: 100%;
+    overflow: auto;
+    font-size: 0;
+    overflow: hidden;
+}
+.rightSide ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.rightSide>ul>li{
+	height: 4.4242rem;
+	width: 100%;
+	background-color: #efefef;
+}
+.rightSide li a{
+	box-sizing: border-box;
+	display: flex;
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 0;
+    padding: .41665rem;
+    width: 100%;
+    height: 100%;
+}
+.rightSide li a .FL-img img{
+	height: 3.5414rem;
+    width: 3.5414rem;
+    float: left;
+    position: relative;
+}
+.FL-img{
+	width: 3.5414rem;
+	height: 3.5414rem;
+}
+.FL-name{
+	color:#333;
+	font-size: 0.72914rem;
+	width: 8.6469rem;
+	height: 3.45rem;
+	line-height: 3.45rem;
+	padding-left: 0.3125rem;
+}
+.footer-fixed .activeFL::before{
+	background-position: -4.84065rem -1.723rem !important;
+}
+.footer-fixed .activeFL{
+	color: #ca151e !important;
+}
+/*分页效果*/
+.rightSide ul{
+	display: none;
+}
+.selectUl{
+	display: block !important;
+}
+.selecteItem{
+	color: red !important;
+}

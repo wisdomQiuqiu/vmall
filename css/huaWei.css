@@ -1,0 +1,33 @@
+
+/*hot-area板块*/
+.hot-area{
+	width: 100%;
+	height: 4.7rem;
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: #f7f7f7;
+}
+.hot-area a
+{
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+	
+}
+.hot-area a:first-of-type{
+	margin: 0 .20835rem 0 .41665rem;
+}
+.hot-area a:last-of-type{
+	margin:0 .41665rem 0 .20835rem  ;
+}
+.hot-area a img{
+	width: 100%;
+	height: 100%;
+}
+.footer-fixed .activeHW{
+	color: #ca151e !important;
+}
+.footer-fixed .activeHW::before{
+	
+	background-position: -1.71765rem -1.71765rem !important;
+}

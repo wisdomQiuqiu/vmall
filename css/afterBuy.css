@@ -1,0 +1,55 @@
+
+/*好大的一段字呀...........................*/
+.specify{
+	width: 100%;
+}
+.specify .content span{
+	font-family:arial,helvetica,sans-serif;
+	font-size:0.625rem;
+	line-height: 1.64;
+    display: block;
+    color: #5f5f5f;
+}
+.content p {
+    font-size: .6rem;
+    line-height: 1.36;
+}
+.specify>header{
+	display: block;
+    background-color: #f1f1f1;
+    color: #888;
+    font-size: .625rem;
+   	height: 1.65rem;
+   	line-height: 1.65rem;
+    padding-left: 0.88112rem;
+}
+.specify .content {
+	width: 100%;
+	box-sizing: border-box;
+    padding: .8333rem 1.25rem;
+    background-color: #f7f7f7;
+    font-size: 0.6rem;
+}
+.specify .content h3:first-child {
+    margin-top: 0;
+}
+h1,h2,h3,h4,b{
+    font-size: .67706rem;
+    line-height: 2;
+    padding-top: .54165rem;
+    font-weight: normal;
+}
+.specify .content span {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+    line-height: 1.64;
+    display: block;
+    color: #5f5f5f;
+    font-size: 0.6rem;
+    word-break: break-all;
+}
+.content span b {
+    color: #888;
+    padding-right: .3rem;
+}

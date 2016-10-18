@@ -1,0 +1,130 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+@media only screen and (max-width:768px){
+	html{
+		font-size: 40.96px;
+	}
+}
+@media only screen and (max-width:435px){
+	html{
+		font-size: 23.2px;
+	}
+}
+@media only screen and (max-width:414px){
+	html{
+		font-size: 22.08px;
+	}
+}
+@media only screen and (max-width:411px){
+	html{
+		font-size: 21.92px;
+	}
+}
+@media only screen and (max-width:375px){
+	html{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width:360px) {
+	html{
+		font-size: 19.2px;
+	}
+}
+@media only screen and (max-width:320px){
+	html{
+		font-size: 17.0667px;
+	}
+}
+body{
+	font-family: sans-serif,Helvetica,Arial,'Lucida Grande',Verdana;
+    word-wrap: break-word;
+}
+li{
+	list-style: none;
+}
+#page{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+}
+#page>header{
+	height: 2.083rem;
+	background-color: rgba(255,255,255,.92);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+    max-width: 720px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+/*LOGO部分*/
+.logo{
+	height: 100%;
+	width: 4.1655rem;
+}
+.logo img{
+	border: 0;
+    max-width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+/*搜索框*/
+.search{
+	width: 10.1085rem;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.search input{
+	width: 8.12515rem;
+	height: 1.42211rem;
+	font-size: 0.67706rem;
+	padding:0 0.6249rem;
+	border-radius: 0.724455rem;
+	background-color: #f7f7f7;
+    border: 0;
+    color: #333;
+}
+.login{
+	display: flex;
+	height: 100%;
+	width: 4.476rem;
+	padding-right: 0.41665rem;
+	box-sizing: border-box;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between ;
+}
+.login i{
+	width: 1.2485rem;
+	height: 1.2485rem;
+	background: url(../img/icon_shoppingCart.png) no-repeat 50% 50%;
+	background-size: 100% 100%;
+	margin: 0 0.20832rem;
+	margin-left: 0.3rem;
+}
+.login .login-text{
+	font-size: 0.72914rem;
+    color: #4c4c4c;
+    margin: 0 0.20832rem;
+}
+/*轮播图*/
+.carousel{
+	width: 100%;
+	height: 7.9155rem;
+	margin-top:2.083rem;;
+}
+.carousel img{
+	width: 100%;
+	height: 100%;
+}
